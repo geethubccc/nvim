@@ -8,6 +8,10 @@ opt.autoindent = true
 opt.iskeyword:append("-")
 opt.modifiable = true
 opt.buftype = ""
+opt.tabstop = 4 -- Number of spaces tabs count for
+opt.expandtab = true -- Pressing the TAB key will insert spaces instead of a TAB character
+opt.softtabstop = 4 -- Number of spaces inserted instead of a TAB character
+opt.shiftwidth = 4 -- Number of spaces inserted when indenting
 
 -- word wrap 自动换行
 opt.wrap = true
